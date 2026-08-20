@@ -1,0 +1,7 @@
+n = int(input())
+
+for i in range(n):
+    number = n - i
+    spaces = " " * (i * 2)
+    numbers = (str(number) + " ") * number 
+    print(spaces +  numbers)
